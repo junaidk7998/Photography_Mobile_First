@@ -37,6 +37,32 @@ main {
     background: #ffffff;
 }
 
-.landing-text {
-    
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2 {
+    color: #888888;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333333;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: #f4f4f4;
 }
